@@ -79,7 +79,7 @@ if (x > x) {
 Although it seems unlikely, how can a value be greater than itself? However, we can use the “Symbol.toPrimitive” feature to complete the question.
 
 ```js:
-onst x = { // Please fill in the value of "x?
+const x = { // Please fill in the value of "x?
   value: 1,
   [ Symbol.toPrimitive ] () {
     console.log('x', this.value)
